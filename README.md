@@ -1,2 +1,2 @@
 # SpanishQuiz
-# 10 Intermediate questions for Spanish verb conjugations
+# 10 Spanish Verb Conjugation Quiz
