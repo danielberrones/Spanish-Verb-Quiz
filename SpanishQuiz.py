@@ -1,4 +1,4 @@
-## Simple Spanish Quiz
+## Spanish Verb Quiz
 ## Created by Daniel Berrones
 
 class Question:
