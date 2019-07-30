@@ -1,2 +1,2 @@
 # SpanishQuiz
-# 10 Spanish Verb Conjugation Quiz
+This is a Spanish verb conjugation quiz written in Python.  There are 10 questions.   
