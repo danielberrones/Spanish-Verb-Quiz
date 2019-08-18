@@ -2,14 +2,15 @@
 ## Created by Daniel Berrones
 
 class Quiz:
+	''' This creates the quiz '''
 	def __init__(self, prompt, answer):
 		self.prompt = prompt
 		self.answer = answer
 
 spanishQuestions = [
 "What's the future tense of the verb hacer in the 2nd person singular?\n(a)harás\n(b)hará\n(c)haremos\n(d)haré\n",
-"What's the imperfect tense of the verb hablar in the 3rd person plural?\n(a)tocaban\n(b)hablaban\n(c)tocaron\n(d)hablaron\n",
-"What's the present subjunctive verb decir in the 1st person plural?\n(a)dijéramos\n(b)estemos\n(c)digamos\n(d)estamos\n",
+"What's the imperfect tense of the verb hablar in the 3rd person plural?\n(a)hablaste\n(b)hablé\n(c)hablaban\n(d)hablaron\n",
+"What's the present subjunctive verb decir in the 1st person plural?\n(a)dijéramos\n(b)digo\n(c)digamos\n(d)dijiste\n",
 "What's the present indicative of the verb ser in the 3nd person singular?\n(a)sea\n(b)es\n(c)seas\n(d)eres\n",
 "What's the present subjunctive verb querer in the 1st person plural?\n(a)queramos\n(b)quieren\n(c)queremos\n(d)querremos\n",
 "What's the future tense of the verb ver in the 1st person plural?\n(a)veremos\n(b)vemos\n(c)verán\n(d)vean\n",
@@ -21,8 +22,8 @@ spanishQuestions = [
 
 questionsList = [
 Quiz(spanishQuestions[0], "a"),
+Quiz(spanishQuestions[1], "c"),
 Quiz(spanishQuestions[2], "c"),
-Quiz(spanishQuestions[1], "b"),
 Quiz(spanishQuestions[3], "a"),
 Quiz(spanishQuestions[4], "a"),
 Quiz(spanishQuestions[5], "a"),         
