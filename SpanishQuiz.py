@@ -1,5 +1,5 @@
 ## Spanish Verb Quiz
-## Created by Daniel Berrones
+## Created by Daniel Berrones (email: Daniel.A.Berrones@gmail.com)
 
 class Quiz:
 	''' This creates the quiz '''
