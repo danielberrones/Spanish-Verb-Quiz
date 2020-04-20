@@ -18,6 +18,7 @@ spanishQuestions = [
 "What's the present subjunctive of the verb amar in the 1st person plural?\n(a)amamos\n(b)amemos\n(c)amáramos\n(d)amarán\n",
 "What's the present indicative of the verb estar in the 3nd person plural?\n(a)estaban\n(b)estarán\n(c)están\n(d)son\n",
 "What's the future tense of the verb sonreír in the 1st person singular?\n(a)sonrien\n(b)sonries\n(c)sonreía\n(d)sonreiré\n",
+"What's the present tense of the verb resolver in the 1st person plural?\n(a)resolvemos\n(b)resolvimos\n(c)resolveremos\n(d)resuelve\n",
 ]
 
 questionsList = [
@@ -31,6 +32,8 @@ Quiz(spanishQuestions[6], "c"),
 Quiz(spanishQuestions[7], "b"),   
 Quiz(spanishQuestions[8], "c"),
 Quiz(spanishQuestions[9], "d"),
+Quiz(spanishQuestions[10], "a"),
+
 ]
 
 def main(spanishQuestions):
