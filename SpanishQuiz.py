@@ -2,7 +2,6 @@
 ## Created by Daniel Berrones (email: Daniel.A.Berrones@gmail.com)
 
 class Quiz:
-	''' This creates the quiz '''
 	def __init__(self, prompt, answer):
 		self.prompt = prompt
 		self.answer = answer
