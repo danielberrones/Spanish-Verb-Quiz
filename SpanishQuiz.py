@@ -49,4 +49,5 @@ def main(spanishQuestions):
 			score += 1
 	print("Congrats!  You guessed {:.0%} percent correctly.".format(score/total))
 
+
 main(questionsList)
