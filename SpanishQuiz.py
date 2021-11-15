@@ -1,5 +1,4 @@
 ## Spanish Verb Quiz
-## Created by Daniel Berrones (email: Daniel.A.Berrones@gmail.com)
 
 class Quiz:
 	def __init__(self, prompt, answer):
@@ -47,6 +46,7 @@ def main(spanishQuestions):
 		answer = input(question.prompt + "\n>>> ")
 		if answer == question.answer:
 			score += 1
+	
 	print("Congrats!  You guessed {:.0%} percent correctly.".format(score/total))
 
 
